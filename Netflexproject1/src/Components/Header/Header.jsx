@@ -1,6 +1,6 @@
 
 import './Header.css'
-//  import Netflexlogo from '../../assets/Images/Netflexlogo.png'
+ import Netflexlogo from '../../assets/Images/NetflixLogo.png'
  import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
 
@@ -14,14 +14,13 @@ function Header() {
       <div className='header_container'>
 <div className='header_left'>
 <ul> 
-      {/* <li><img src={Netflexlogo}alt="Netflix logo" width="100"/></li>    */}
-    <li>Netflix</li>
+    <li><img src={Netflexlogo}alt="Netflix logo" width="100"/></li>   
     <li>Home</li>
     <li>TvShows</li>
     <li>Movies</li>
     <li>Latest</li>
     <li>MyList</li>
-    <li>Brouse by Languages</li>
+    <li>Browse by Languages</li>
 </ul>
 </div>
 <div className='header_right'>
